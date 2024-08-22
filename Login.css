@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.custom{
+    background-color: burlywood;
+}
+.navbar-logo{
+    height: 80px;
+    border-radius: 50%;
+    margin-left: 50px;
+} 
+.nav-item .nav-link{
+    color: whitesmoke;
+    margin-left: 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
+#navbarNav{
+    margin-right: 60px;
+}
+/*login form */
+section{
+    background-image: url(carousel\ 2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.login-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.login-card{
+    background-color: rgba(0,0,0,0.5);
+    padding: 40px;
+    margin-top: 50px;
+    max-width: 450px;
+    width: 100%;
+    text-align: center;
+    border-radius: 30px;
+}
+.input-container{
+    text-align: left;
+    margin-bottom: 20px;
+}
+.input-container h2{
+    color: burlywood;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 800;
+}
+.input-container label{
+    font-size: 20px;
+    color: burlywood;
+    margin-bottom:10px ;
+    display: block;
+}
+.login-container input{
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-radius: 8px;
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+}
+.btn1{
+    color: rgb(220, 135, 24);
+    background-color: burlywood;;
+    padding: 10px 30px;
+    border: none;
+    font-size:18px;
+    cursor: pointer;
+    margin-left:10px ;
+    border-radius: 10px;
+    transition:  background-color 0.8s;
+}
+.sign-link{
+    margin-top: 30px;
+    color: burlywood;
+}
+.sign-link a{
+    text-decoration: none;
+    color:rgb(214, 229, 204);
+    font-weight: 800;
+}
+.sign-link a:hover{
+    color:rgb(224, 224, 93);
+}
+/* fotter */
+.footer {
+    padding: 40px 30px;
+    height: 110px;
+    background-color: burlywood;
+    text-align: center;
+    color: aliceblue;
+    bottom: 0;
+    width: 100%;
+    /* margin-top: 50px; */
+    display: flex;
+    justify-content: space-around;
+}
+
+.social-icons {
+    margin-bottom: 15px;
+}
+
+.social-icons .bi{
+    font-size: 24px;
+    color: aliceblue;
+    margin: 0 15px;
+    transition: color 0.3s;
+}
+.social-icons .bi:hover{
+    color: bisque;
+}
+.footer p {
+    font-size: 20px;
+}
+@media screen and (max-width: 768px) {
+    .login-container input{
+        background: transparent;
+        border: 1px solid white;
+        color: white;
+    }
+    .footer{
+        align-items: center;
+    }
+    .footer .bi{
+        margin: 5px;
+    }
+    .footer p{
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .login-container{
+        width: 300px;
+        margin-left: 10px;
+    }
+    .login-container input{
+        background: transparent;
+        border: 1px solid white;
+        color: white;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        height: 140px;
+        align-items: center;
+    }
+    .footer .bi{
+        margin: 8px;
+    }
+    .footer p{
+        font-size: 15px;
+    }
+  }

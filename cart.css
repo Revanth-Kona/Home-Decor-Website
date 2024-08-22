@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.custom{
+    background-color: burlywood;
+}
+.navbar-logo{
+    height: 80px;
+    border-radius: 50%;
+    margin-left: 50px;
+} 
+.nav-item .nav-link{
+    color: whitesmoke;
+    margin-left: 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
+#navbarNav{
+    margin-right: 60px;
+}
+.nav-item .bi{
+    font-size: 20px;
+}
+section{
+    height: 70vh;
+}
+section img{
+    width: 100%;
+    height: 350px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+section p{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 30px;
+    font-weight: 900;
+}
+/* fotter */
+.footer {
+    padding: 20px 30px;
+    background-color: burlywood;
+    text-align: center;
+    color: aliceblue;
+    bottom: 0;
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.social-icons {
+    margin-bottom: 15px;
+}
+
+.social-icons .bi{
+    font-size: 24px;
+    color: aliceblue;
+    margin: 0 15px;
+    transition: color 0.3s;
+}
+.social-icons .bi:hover{
+    color: bisque;
+}
+.footer p {
+    font-size: 20px;
+}
+
+@media (max-width: 768px){
+    section img{
+        width: 500px;
+        margin-left: 120px;
+    }
+    section p{
+        margin-top: 1px;
+    }
+}
+@media (max-width:320px){
+    section p{
+        margin-top: 1px;
+    }
+}

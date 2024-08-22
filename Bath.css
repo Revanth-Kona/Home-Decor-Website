@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.custom{
+    background-color: burlywood;
+}
+.navbar-logo{
+    height: 80px;
+    border-radius: 50%;
+    margin-left: 50px;
+} 
+.nav-item .nav-link{
+    color: whitesmoke;
+    margin-left: 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
+#navbarNav{
+    margin-right: 60px;
+}
+/* hed */
+.hed h1{
+    text-align: center;
+    margin: 30px;
+    font-weight: 800;
+    font-size: 50px;
+    color: rgb(161, 180, 195);
+}
+.active img{
+    height: 70vh;
+    border-radius: 30%;
+}
+
+/* Brush Stands cards */
+.BS h1{
+    text-align: center;
+    margin: 40px 0px;
+    font-size: 40px;
+    font-weight: 800;
+    color: rgb(161, 180, 195);
+}
+.BS img{
+    height: 250px;
+}
+.BS .card{
+    justify-content: center;
+    text-align: center;
+}
+.BS-items:hover{
+    animation: scale 2s ease 1;
+}
+@keyframes scale{
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.03);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+/* towel hanger cards */
+.TH h1{
+    text-align: center;
+    margin: 80px 0px;
+    font-size: 40px;
+    font-weight: 800;
+    color: rgb(161, 180, 195);
+}
+.TH img{
+    height: 250px;
+}
+.TH .card{
+    justify-content: center;
+    text-align: center;
+}
+.TH-items:hover{
+    animation: scale 2s ease 1;
+}
+@keyframes scale{
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.03);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+/* soap hanger cards */
+.ss h1{
+    text-align: center;
+    margin: 80px 0px;
+    font-size: 40px;
+    font-weight: 800;
+    color: rgb(161, 180, 195);
+}
+.ss img{
+    height: 250px;
+}
+.ss .card{
+    justify-content: center;
+    text-align: center;
+}
+.ss-items:hover{
+    animation: scale 2s ease 1;
+}
+@keyframes scale{
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.03);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+/* Taps cards */
+.tap h1{
+    text-align: center;
+    margin: 80px 0px;
+    font-size: 40px;
+    font-weight: 800;
+    color: rgb(161, 180, 195);
+}
+.tap img{
+    height: 250px;
+}
+.tap .card{
+    justify-content: center;
+    text-align: center;
+}
+.tap-items:hover{
+    animation: scale 2s ease 1;
+}
+@keyframes scale{
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.03);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+/* shower cards */
+.SW h1{
+    text-align: center;
+    margin: 80px 0px;
+    font-size: 40px;
+    font-weight: 800;
+    color: rgb(161, 180, 195);
+}
+.SW img{
+    height: 250px;
+}
+.SW .card{
+    justify-content: center;
+    text-align: center;
+}
+.SW-items:hover{
+    animation: scale 2s ease 1;
+}
+@keyframes scale{
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.03);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+/* fotter */
+.footer {
+    padding: 40px 30px;
+    background-color: burlywood;
+    text-align: center;
+    color: aliceblue;
+    bottom: 0;
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.social-icons {
+    margin-bottom: 15px;
+}
+
+.social-icons .bi{
+    font-size: 24px;
+    color: aliceblue;
+    margin: 0 15px;
+    transition: color 0.3s;
+}
+.social-icons .bi:hover{
+    color: bisque;
+}
+.footer p {
+    font-size: 20px;
+}

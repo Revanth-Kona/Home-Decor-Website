@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.custom{
+    background-color: burlywood;
+}
+.navbar-logo{
+    height: 80px;
+    border-radius: 50%;
+    margin-left: 50px;
+} 
+.nav-item .nav-link{
+    color: whitesmoke;
+    margin-left: 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
+#navbarNav{
+    margin-right: 60px;
+}
+.nav-item .bi{
+    font-size: 20px;
+}
+/* items */
+.ites{
+    margin-top: 30px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.ites img{
+    height: 100px;
+    border-radius: 50%;
+    padding-bottom: 5px;
+}
+.ites p{
+    color: rgb(128, 174, 174);
+    font-weight: 600;
+}
+/* carousel */
+.slide{
+    margin-top: 10px;
+}
+.carousel-item img{
+    height: 500px;
+}
+/* Blog */
+.Blog h1{
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 40px;
+    font-weight: 800;
+    color: rgb(161, 180, 195);
+}
+.Blog .card-text{
+    text-align: center;
+}
+/* new arrivels */
+.new h1{
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 40px;
+    font-weight: 800;
+    color: rgb(161, 180, 195);
+}
+.new .card{
+    margin-top: 20px;
+}
+.new-item:hover{
+    animation: scale 2s ease 1;
+}
+@keyframes scale{
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.09);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+/* Blogs */
+.Blog h1{
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 40px;
+    font-weight: 800;
+    color: rgb(161, 180, 195);
+}
+.Blog .card{
+    margin-top: 20px;
+}
+.blog-item:hover{
+    animation: scale 2s ease 1;
+}
+@keyframes scale{
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.09);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+/* fotter */
+.footer {
+    padding: 40px 30px;
+    background-color: burlywood;
+    text-align: center;
+    color: aliceblue;
+    bottom: 0;
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.social-icons {
+    margin-bottom: 15px;
+}
+
+.social-icons .bi{
+    font-size: 24px;
+    color: aliceblue;
+    margin: 0 15px;
+    transition: color 0.3s;
+}
+.social-icons .bi:hover{
+    color: bisque;
+}
+.footer p {
+    font-size: 20px;
+}
